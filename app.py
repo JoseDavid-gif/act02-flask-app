@@ -32,5 +32,7 @@ def home():
 
     return f'<h2>¡Hola, Loja!</h2><p><b>{fecha_formateada}</b></p>{tabla_html}'
 
+
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=5001)
+    app.run(debug=True, host='127.0.0.1', port=5000)
+
